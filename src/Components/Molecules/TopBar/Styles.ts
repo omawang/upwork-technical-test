@@ -10,6 +10,7 @@ export const TopBarStyles = makeStyles((theme: Theme) => ({
     width: 'calc(100% - 24px)',
     height: '64px',
     background: '#000',
+    zIndex: 200
   },
   input: {
     background: '#fff',

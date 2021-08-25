@@ -41,11 +41,13 @@ export const NewsDetail = ({
       <div className={classes.body}>
         <Typography className={classes.title}>{article.title}</Typography>
         <div className={classes.inner}>
-          <img
-            src={article.urlToImage}
-            alt={article.title}
-            className={classes.img}
-          />
+          <div className={classes.imgWrapper}>
+            <img
+              src={article.urlToImage}
+              alt={article.title}
+              className={classes.img}
+            />
+          </div>
           <Typography className={classes.description}>
             {article.description}
           </Typography>

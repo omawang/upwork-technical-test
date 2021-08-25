@@ -15,5 +15,8 @@ export const GridNewsStyles = makeStyles((theme: Theme) => ({
     margin: '8px',
     width: 'calc(100% / 3 - 16px)',
     background: '#282828',
+    [theme.breakpoints.down('xs')]: {
+      width: 'calc(100% - 16px)',
+    },
   },
 }));
