@@ -1,6 +1,64 @@
-# Getting Started with Create React App
+# Getting Started with this project
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Step 1 - Dependencies
+
+You will need:
+
+* [Git](http://git-scm.com/downloads)
+* [node](https://nodejs.org/)
+* [yarn](https://yarnpkg.com/en/docs/install) (Optional. Not Required if you use NPM)
+
+Please install them if you don't have them already.
+
+## Step 2 - Clone the repository:
+
+From the command line, clone the repository:
+
+```sh
+$ git clone https://github.com/omawang/upwork-technical-test
+```
+
+then
+
+```sh
+cd upwork-technical-test
+```
+
+## Step 3 Install the dependencies
+
+If you are using yarn run from the root of the repository:
+
+```sh
+yarn
+```
+
+If you are using npm, run from the root of the repository:
+
+```sh
+npm run install
+```
+
+## Step 4 - Run an app
+
+Once the dependencies are installed, you can run the app by:
+
+```sh
+yarn start
+# or
+npm start
+```
+
+Your browser should open up to a running app.
+
+## Troubleshooting
+
+A few common problems:
+
+### No articles found
+
+If you deploy this project into production, the api key from NewsApi.org needs Business or Enterprise account. But if you are as Developer, it only works on your localhost. You can change the api key if you want at src/Pages/Home/Home.tsx:8. Can we move this constant into env variable? Yes, you can.
 
 ## Available Scripts
 
